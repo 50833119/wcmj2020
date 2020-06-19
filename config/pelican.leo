@@ -41,14 +41,8 @@
 </v>
 <v t="leo.20180115142025.1"><vh>保留之前舊的設定檔案</vh></v>
 </v>
-<v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
-<v t="yen.20170224232341.3"><vh>@edit base.html</vh></v>
-</v>
-<v t="leo.20170710015301.1"><vh>@path theme/pelican-bootstrap3/templates</vh>
-<v t="leo.20170710015311.1"><vh>@edit search.html</vh></v>
-<v t="leo.20170710095845.1"><vh>@edit base.html</vh></v>
-<v t="leo.20170710101854.1"><vh>@edit article.html</vh></v>
-</v>
+<v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh></v>
+<v t="leo.20170710015301.1"><vh>@path theme/pelican-bootstrap3/templates</vh></v>
 </v>
 <v t="leo.20170710015511.1"><vh>編輯 plugin</vh>
 <v t="leo.20170710015523.1"><vh>@path plugin</vh>
@@ -59,7 +53,7 @@
 </v>
 <v t="yen.20170108171733.71"><vh>@path markdown</vh>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
-<v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
+<v t="yen.20170108171733.82"><vh>@clean pages_1.md</vh></v>
 </v>
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
@@ -67,7 +61,9 @@
 <v t="leo.20180115115910.1"><vh>2018</vh>
 <v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20200522141926.1"><vh>@clean 50833119 522.md</vh></v>
-<v t="leo.20180423103656.1"><vh>@clean 20180910.md</vh></v>
+<v t="leo.20180423103656.1"><vh>@clean 20180910.md</vh>
+<v t="leo.20200619143349.1"><vh>newHeadline</vh></v>
+</v>
 <v t="leo.20180909205246.1"><vh>@cleant 522.md</vh></v>
 <v t="leo.20200522151256.1"><vh>@clean 50833119 522 01.md</vh>
 <v t="leo.20200529161724.1"><vh>要加blogger的id</vh></v>
@@ -121,56 +117,7 @@ Author: yen
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-電腦規格
-----
-
-目前系上已經沒有 32 位元 Windows 操作系統的電腦, 所以先前只要有學生提到所使用的電腦是舊型 32 位元的 Windows XP 或 Windows 7, 都無法提供相應的可攜程式系統.
-
-但是, 當您桌上就只一台早期 Sony 推出的 VGC-LM26T 電腦, 採用 Intel core 2 Duo T8100 2.1 GHz 裝載 32 位元 Windows 7, 記憶體只有 2GB 的老舊電腦.
-
-夠用嗎?
-
-當然可以, 使用的是特別製作的 [32 位元可攜系統], 除了不支援 Eric6 之外, 其餘功能都與 64 位元的  [p37] 相同.
-
-[32 位元可攜系統]: https://mde1a1.kmol.info/2017fall/raw/p37_32.7z?name=c272a694f98180f8d1272b43f7d7b4fdd8f7f550
-[p37]: https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing
-
-工作流程
-----
-
-從 2018 Fall 開始, 前半學期希望每位計算機程課程的學員, 都能透過 [2018 計算機程式教材] 內容, 深入學習 Python 3 各種程式語法, 利用 [CMSimfly]、[Pelican] 與 [Reveal.js], 熟悉如何在 [Github] 配置自己的網站、網誌與網際簡報系統.
-
-使用時, 啟動隨身系統的 start.bat, 利用命令列指令, git clone https://github.com/mdecourse/2018fall, 然後將內容配置在各自的 [Github] 帳號下.
-
-[Github]: https://github.com/
-[2018 計算機程式教材]:  http://mde.tw/cp2018/content/
-[CMSimfly]: https://github.com/chiamingyen/cmsimfly
-[Pelican]: https://github.com/getpelican/pelican
-[Reveal.js]: https://revealjs.com/
-
-程式專案
-----
-
-早在 1999 年, 就已經開始進行所謂[網際機械設計資源中心]的構建, 想像中的資源中心是一套網際專家系統, 包含各式機械設計流程中所需的模組, 全部依附在一個相對穩定, 可以持續改進的核心架構下, 類似 [docassemble] 的一套系統.
-
-將近二十年過去, [網際機械設計資源中心]始終仍只有片段系統, 其中包含 [CMSimfly]、[Pygrouf] 與 [Pyslvs] ([Pyslvs 手冊])等相關專案.
-
-就如同[如何寫出有用的程式?] 一文中所述, "沒有興趣不要來念資工" 是一句非常貼切的警語, 當學生對於程式設計提不起興趣, 沒有將所學的各式語法、資料結構與演算法, 套用在自己非常有興趣的領域中, 用來解決各式問題的話, 日復一日, 我們還是寫不出任何有用的程式!
-
-[網際機械設計資源中心]: https://webcache.googleusercontent.com/search?q=cache:sqYPNC8_mgoJ:https://www.most.gov.tw/sci/ch/detail%3Farticle_uid%3D4ee546e6-73fa-43a8-b1df-a5a0a1fe1824%26menu_id%3D0bac23e6-b3df-4fe0-b152-2e1050eb2f2c%26content_type%3DP%26view_mode%3DlistView+&amp;cd=6&amp;hl=zh-TW&amp;ct=clnk&amp;gl=tw
-[docassemble]: https://github.com/jhpyle/docassemble
-[Pygrouf]: https://github.com/chiamingyen/pygrouf
-[Pyslvs]: https://github.com/KmolYuan/Pyslvs-PyQt5
-[Pyslvs 手冊]: http://www.pyslvs.com/content/
-[如何寫出有用的程式?]: http://blog.ez2learn.com/2009/06/27/how-to-write-useful-program/
-
-早該起頭的重要工作
-----
-
-[計算機程式的重要性]其實已經無需爭辯, 人類未來的許多工作都是透過網路與數位運算達成, 既知趨勢如此, 每一位工程師就該越早起頭原本就該進行的重要工作, 透過計算機程式來解決問題, 構築一個值得長期投注心力的程式專案.
-
-[計算機程式的重要性]: https://www.quora.com/Why-is-programming-so-important-in-the-modern-world
-</t>
+@others</t>
 <t tx="leo.20180909205246.1">@language md
 ---
 Title:2020 Fall CP 
@@ -196,7 +143,7 @@ Author:50833119
 <t tx="leo.20200522141926.1">@language md
 ---
 Title:2020 Fall CP 
-ate:2020-05-22 02:44
+Date:2020-05-22 02:44
 Category:MISC
 Slug:2020-Fall-32-w10-bit-W indows
 Author:50833119
@@ -434,6 +381,56 @@ except(client.AccessTokenRefreshError):
     g.es("error")</t>
 <t tx="leo.20200529161724.1">
 </t>
+<t tx="leo.20200619143349.1">電腦規格
+----
+
+目前系上已經沒有 32 位元 Windows 操作系統的電腦, 所以先前只要有學生提到所使用的電腦是舊型 32 位元的 Windows XP 或 Windows 7, 都無法提供相應的可攜程式系統.
+
+但是, 當您桌上就只一台早期 Sony 推出的 VGC-LM26T 電腦, 採用 Intel core 2 Duo T8100 2.1 GHz 裝載 32 位元 Windows 7, 記憶體只有 2GB 的老舊電腦.
+
+夠用嗎?
+
+當然可以, 使用的是特別製作的 [32 位元可攜系統], 除了不支援 Eric6 之外, 其餘功能都與 64 位元的  [p37] 相同.
+
+[32 位元可攜系統]: https://mde1a1.kmol.info/2017fall/raw/p37_32.7z?name=c272a694f98180f8d1272b43f7d7b4fdd8f7f550
+[p37]: https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing
+
+工作流程
+----
+
+從 2018 Fall 開始, 前半學期希望每位計算機程課程的學員, 都能透過 [2018 計算機程式教材] 內容, 深入學習 Python 3 各種程式語法, 利用 [CMSimfly]、[Pelican] 與 [Reveal.js], 熟悉如何在 [Github] 配置自己的網站、網誌與網際簡報系統.
+
+使用時, 啟動隨身系統的 start.bat, 利用命令列指令, git clone https://github.com/mdecourse/2018fall, 然後將內容配置在各自的 [Github] 帳號下.
+
+[Github]: https://github.com/
+[2018 計算機程式教材]:  http://mde.tw/cp2018/content/
+[CMSimfly]: https://github.com/chiamingyen/cmsimfly
+[Pelican]: https://github.com/getpelican/pelican
+[Reveal.js]: https://revealjs.com/
+
+程式專案
+----
+
+早在 1999 年, 就已經開始進行所謂[網際機械設計資源中心]的構建, 想像中的資源中心是一套網際專家系統, 包含各式機械設計流程中所需的模組, 全部依附在一個相對穩定, 可以持續改進的核心架構下, 類似 [docassemble] 的一套系統.
+
+將近二十年過去, [網際機械設計資源中心]始終仍只有片段系統, 其中包含 [CMSimfly]、[Pygrouf] 與 [Pyslvs] ([Pyslvs 手冊])等相關專案.
+
+就如同[如何寫出有用的程式?] 一文中所述, "沒有興趣不要來念資工" 是一句非常貼切的警語, 當學生對於程式設計提不起興趣, 沒有將所學的各式語法、資料結構與演算法, 套用在自己非常有興趣的領域中, 用來解決各式問題的話, 日復一日, 我們還是寫不出任何有用的程式!
+
+[網際機械設計資源中心]: https://webcache.googleusercontent.com/search?q=cache:sqYPNC8_mgoJ:https://www.most.gov.tw/sci/ch/detail%3Farticle_uid%3D4ee546e6-73fa-43a8-b1df-a5a0a1fe1824%26menu_id%3D0bac23e6-b3df-4fe0-b152-2e1050eb2f2c%26content_type%3DP%26view_mode%3DlistView+&amp;cd=6&amp;hl=zh-TW&amp;ct=clnk&amp;gl=tw
+[docassemble]: https://github.com/jhpyle/docassemble
+[Pygrouf]: https://github.com/chiamingyen/pygrouf
+[Pyslvs]: https://github.com/KmolYuan/Pyslvs-PyQt5
+[Pyslvs 手冊]: http://www.pyslvs.com/content/
+[如何寫出有用的程式?]: http://blog.ez2learn.com/2009/06/27/how-to-write-useful-program/
+
+早該起頭的重要工作
+----
+
+[計算機程式的重要性]其實已經無需爭辯, 人類未來的許多工作都是透過網路與數位運算達成, 既知趨勢如此, 每一位工程師就該越早起頭原本就該進行的重要工作, 透過計算機程式來解決問題, 構築一個值得長期投注心力的程式專案.
+
+[計算機程式的重要性]: https://www.quora.com/Why-is-programming-so-important-in-the-modern-world
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -522,6 +519,28 @@ g.es("admin pelican 近端執行完畢")
 <t tx="yen.20170108171733.5"></t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.81"></t>
+<t tx="yen.20170108171733.82">
+    @language md
+Title: About
+
+## CMSimfly 內容管理網誌
+
+課程倉儲: &lt;a href="https://github.com/chiamingyen/cmsimfly"&gt;https://github.com/chiamingyen/cmsimfly&lt;/a&gt;
+
+內容管理: &lt;a href="https://chiamingyen.github.io/cmsimfly/"&gt;https://chiamingyen.github.io/cmsimfly/&lt;/a&gt;
+
+課程投影片: &lt;a href="https://chiamingyen.github.io/cmsimfly/reveal"&gt;https://chiamingyen.github.io/cmsimfly/reveal&lt;/a&gt;
+
+課程網誌: &lt;a href="https://chiamingyen.github.io/cmsimfly/blog"&gt;https://chiamingyen.github.io/cmsimfly/blog&lt;/a&gt;
+
+
+
+
+
+
+
+
+</t>
 <t tx="yen.20170108171733.83">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 
 </t>
