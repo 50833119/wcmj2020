@@ -64,7 +64,7 @@
 <v t="leo.20180423103656.1"><vh>@clean 20180910.md</vh>
 <v t="leo.20200619143349.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20180909205246.1"><vh>@cleant 522.md</vh></v>
+<v t="leo.20180909205246.1"><vh>@clean 522.md</vh></v>
 <v t="leo.20200522151256.1"><vh>@clean 50833119 522 01.md</vh>
 <v t="leo.20200529161724.1"><vh>要加blogger的id</vh></v>
 </v>
@@ -105,7 +105,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180423103639.1"></t>
 <t tx="leo.20180423103656.1">@language md
 ---
-Title: 2018 Fall CP 課程
+Title: 2018 Fall CP2
 Date: 2018-09-10 11:00
 Category: Misc
 Tags: 2018FallCP
@@ -120,7 +120,7 @@ Author: yen
 @others</t>
 <t tx="leo.20180909205246.1">@language md
 ---
-Title:2020 Fall CP 
+Title:2020  Fall CP3
 Date:2020-05-22 02:44
 Category:MISC
 Slug:2020-Fall-32-bit-W indows 01
@@ -142,7 +142,7 @@ Author:50833119
 </t>
 <t tx="leo.20200522141926.1">@language md
 ---
-Title:2020 Fall CP 
+Title:2020 Fall CP1 
 Date:2020-05-22 02:44
 Category:MISC
 Slug:2020-Fall-32-w10-bit-W indows
@@ -157,7 +157,7 @@ Author:50833119
 </t>
 <t tx="leo.20200522151256.1">@language md
 ---
-Title:2020 Fall CP 
+Title:2020 Fall CP 4
 Date:2020-05-22 02:44
 Category:MISC
 Slug:2020-Fall-32-w10-bit-W indows 5/22
@@ -519,9 +519,7 @@ g.es("admin pelican 近端執行完畢")
 <t tx="yen.20170108171733.5"></t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.81"></t>
-<t tx="yen.20170108171733.82">
-    @language md
-Title: About
+<t tx="yen.20170108171733.82">Title: About
 
 ## CMSimfly 內容管理網誌
 
